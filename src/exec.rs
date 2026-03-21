@@ -12,7 +12,7 @@ use serde_derive::{Deserialize, Serialize};
 use super::Docker;
 
 use crate::container::LogOutput;
-use crate::docker::BodyType;
+use crate::client::BodyType;
 use crate::errors::Error;
 use crate::models::ExecInspectResponse;
 use crate::read::NewlineLogOutputDecoder;
